@@ -67,5 +67,5 @@ public class StudentController {
 	public List<StudentDto> studentsByExamScore(@PathVariable String exam, @PathVariable int score) {
 		return studentService.getStudentsByExamScore(exam, score);
 	}
-
+	
 }
